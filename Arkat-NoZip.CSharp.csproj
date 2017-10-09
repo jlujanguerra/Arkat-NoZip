@@ -75,12 +75,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Bolita.cs" />
-    <Compile Include="Assets\GameOver.cs" />
-    <Compile Include="Assets\Menu.cs" />
-    <Compile Include="Assets\PAuseButton.cs" />
+    <Compile Include="Assets\Scripts\Bolita.cs" />
+    <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\JugadorBarra.cs" />
-    <Compile Include="Assets\tiempoPausa.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
+    <Compile Include="Assets\Scripts\PAuseButton.cs" />
+    <Compile Include="Assets\Scripts\ScriptBloque.cs" />
+    <Compile Include="Assets\Scripts\ScriptBola.cs" />
+    <Compile Include="Assets\Scripts\ScriptJugador.cs" />
+    <Compile Include="Assets\Scripts\tiempoPausa.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
